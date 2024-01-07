@@ -51,7 +51,7 @@ class FilmChestVintageCartoonsSkill(OVOSCommonPlaybackSkill):
             "skill_icon": self.skill_icon,
             "image": self.skill_icon,
             "title": "FilmChest Vintage Cartoons (Cartoon Playlist)",
-            "author": "FilmChest Vintage Cartoons"
+            "author": "Internet Archive"
         }
 
     @ocp_search()
