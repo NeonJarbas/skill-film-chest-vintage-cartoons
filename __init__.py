@@ -10,7 +10,7 @@ from ovos_workshop.skills.common_play import OVOSCommonPlaybackSkill
 class FilmChestVintageCartoonsSkill(OVOSCommonPlaybackSkill):
     def __init__(self, *args, **kwargs):
         self.supported_media = [MediaType.CARTOON]
-        self.skill_icon = join(dirname(__file__), "ui", "filmchest.gif")
+        self.skill_icon = join(dirname(__file__), "res", "filmchest.gif")
         path = join(dirname(__file__), "classic_cartoons.json")
         self.archive = {v["streams"][0]: v for v in JsonStorage(path).values()
                         if v["streams"]}
